@@ -17,7 +17,9 @@ sort django app
     *  添加文件sites_ex.py到 {python_path}\Lib\site-packages\django\contrib\admin\sites_ex.py.py
 
 * 3),修改项目settings.py
+```python
     SORTED_APPS = (
         {'auth':('User', 'Group',)},
         {'proxy':('user', 'group', 'product', 'order',},
     )
+```
