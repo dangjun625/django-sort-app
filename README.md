@@ -1,5 +1,5 @@
 
-##支持django版本
+##支持django版本，Python2.7
 
 * django 1.6.8
 * django 1.7.0
